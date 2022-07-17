@@ -1,0 +1,35 @@
+.App-urok {
+  margin: 0 auto;
+  width: 1200px;
+  display: grid;
+  grid-template-areas: 
+  " header header "
+  " nav    content1";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+  
+}
+
+.header {
+  grid-area: header;
+  background-color: aqua;
+
+}
+
+.header img {
+  width: 30px;
+}
+
+.nav {
+  grid-area: nav;
+  background-color: blue;
+
+}
+
+.content{
+  grid-area: content1;
+  background-color: azure;
+
+}
+
