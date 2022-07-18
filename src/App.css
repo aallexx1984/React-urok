@@ -10,26 +10,3 @@
   grid-gap: 10px;
   
 }
-
-.header {
-  grid-area: header;
-  background-color: aqua;
-
-}
-
-.header img {
-  width: 30px;
-}
-
-.nav {
-  grid-area: nav;
-  background-color: blue;
-
-}
-
-.content{
-  grid-area: content1;
-  background-color: azure;
-
-}
-
